@@ -362,9 +362,9 @@ public class BaconGame {
      * @param args
      */
     public static void main(String[] args) {
-        String actorsFilename = "inputs/actors.txt";
-        String moviesFilename = "inputs/movies.txt";
-        String moviesActorsFilename = "inputs/movie-actors.txt";
+        String actorsFilename = "actors.txt";
+        String moviesFilename = "movies.txt";
+        String moviesActorsFilename = "movie-actors.txt";
         System.out.println("Command:");
         System.out.println("c <#>: list top (positive number) or bottom (negative) <#> centers of" +
                 " the universe, sorted by average separation");
